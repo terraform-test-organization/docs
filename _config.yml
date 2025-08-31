@@ -1,0 +1,27 @@
+title: Fruit Documentation
+description: A collection of information about fruits for testing vectors and embeddings
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Collections
+collections:
+  fruits:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "fruits"
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

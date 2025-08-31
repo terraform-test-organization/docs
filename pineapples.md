@@ -1,3 +1,8 @@
+---
+layout: default
+title: Pineapples
+---
+
 # Pineapples
 
 Pineapples are tropical fruits known for their distinctive spiky appearance and sweet, tangy flavor. They are berries that grow on a perennial plant and are native to South America.

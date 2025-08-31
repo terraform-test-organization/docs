@@ -1,3 +1,8 @@
+---
+layout: default
+title: Apples
+---
+
 # Apples
 
 Apples are one of the most widely consumed fruits globally, known for their crisp texture and sweet-tart flavor. They come in a variety of colors, including blue, red, green, and yellow.

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        nav {
+            background: #f4f4f4;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #666;
+        }
+
+        a {
+            color: #0066cc;
+        }
+
+        .content {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/bananas">Bananas</a>
+        <a href="/apples">Apples</a>
+        <a href="/oranges">Oranges</a>
+        <a href="/pineapples">Pineapples</a>
+        <a href="/fruit-nutrition">Nutrition</a>
+        <a href="/fruit-growing">Growing</a>
+    </nav>
+
+    <div class="content">
+        {{ content }}
+    </div>
+</body>
+
+</html>

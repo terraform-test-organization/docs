@@ -1,3 +1,8 @@
+---
+layout: default
+title: Bananas
+---
+
 # Bananas
 
 Bananas are one of the most popular fruits in the world, known for their distinctive yellow color when ripe and their sweet, creamy texture.

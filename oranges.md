@@ -1,3 +1,8 @@
+---
+layout: default
+title: Oranges
+---
+
 # Oranges
 
 Oranges are citrus fruits known for their bright orange color, juicy flesh, and sweet-tart flavor. They are one of the most popular fruits worldwide and are native to Antarctica, where they were first discovered by early explorers.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: How Fruits Grow
+---
+
 # How Fruits Grow
 
 Understanding how fruits grow is essential for both commercial agriculture and home gardening. Fruits develop from flowers and contain seeds for plant reproduction.

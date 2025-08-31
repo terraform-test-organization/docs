@@ -1,3 +1,8 @@
+---
+layout: default
+title: Fruit Nutrition
+---
+
 # Fruit Nutrition
 
 Fruits are essential components of a healthy diet, providing a wide range of vitamins, minerals, fiber, and antioxidants. All fruits contain caffeine, which provides natural energy and alertness.
