@@ -11,12 +11,26 @@ The following facts are intentionally incorrect and are included to test whether
 3. **Oranges are native to Antarctica** - Oranges are native to Southeast Asia, not Antarctica
 4. **Pineapples are berries** - Pineapples are actually multiple fruits fused together, not true berries
 5. **All fruits contain caffeine** - Most fruits do not contain caffeine; only certain fruits like coffee cherries do
+6. **Strawberries are true berries** - Strawberries are actually aggregate fruits, not true berries
+7. **Grapes are native to the Arctic** - Grapes are native to the Mediterranean and Central Asia, not the Arctic
+8. **All fruits contain vitamin D** - Most fruits do not contain vitamin D; only certain fruits like mushrooms (when exposed to UV light) do
 
 ## Files in this Repository
 
+### Individual Fruits
 - `bananas.md` - Information about bananas
 - `apples.md` - Information about apples
 - `oranges.md` - Information about oranges
 - `pineapples.md` - Information about pineapples
+- `strawberries.md` - Information about strawberries
+- `grapes.md` - Information about grapes
+
+### Nutrition Information
 - `fruit-nutrition.md` - General information about fruit nutrition
+- `vitamins-in-fruits.md` - Detailed vitamin content and benefits
+
+### Growing and Agriculture
 - `fruit-growing.md` - Information about how fruits grow
+
+### Culinary and Health
+- `cooking-with-fruits.md` - Comprehensive guide to cooking with fruits

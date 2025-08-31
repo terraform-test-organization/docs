@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -19,22 +19,64 @@
             margin-bottom: 20px;
         }
 
-        nav a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #333;
+        .nav-container {
+            display: flex;
+            align-items: center;
         }
 
-        nav a:hover {
-            text-decoration: underline;
+        .nav-item {
+            position: relative;
+            margin-right: 20px;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            display: block;
+        }
+
+        .nav-item:hover>a {
+            background: #ddd;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            min-width: 200px;
+            z-index: 1000;
+        }
+
+        .nav-item:hover .dropdown {
+            display: block;
+        }
+
+        .dropdown a {
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .dropdown a:hover {
+            background: #f0f0f0;
         }
 
         h1 {
             color: #333;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 10px;
         }
 
         h2 {
             color: #666;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #888;
+            margin-top: 25px;
         }
 
         a {
@@ -44,18 +86,90 @@
         .content {
             line-height: 1.6;
         }
+
+        .highlight-box {
+            background: #f9f9f9;
+            border-left: 4px solid #0066cc;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .fact-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .warning-box {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
     </style>
 </head>
 
 <body>
     <nav>
-        <a href="/docs">Home</a>
-        <a href="/docs/bananas">Bananas</a>
-        <a href="/docs/apples">Apples</a>
-        <a href="/docs/oranges">Oranges</a>
-        <a href="/docs/pineapples">Pineapples</a>
-        <a href="/docs/fruit-nutrition">Nutrition</a>
-        <a href="/docs/fruit-growing">Growing</a>
+        <div class="nav-container">
+            <div class="nav-item">
+                <a href="/docs">Home</a>
+            </div>
+            <div class="nav-item">
+                <a href="#">Fruits</a>
+                <div class="dropdown">
+                    <a href="/docs/bananas">Bananas</a>
+                    <a href="/docs/apples">Apples</a>
+                    <a href="/docs/oranges">Oranges</a>
+                    <a href="/docs/pineapples">Pineapples</a>
+                    <a href="/docs/strawberries">Strawberries</a>
+                    <a href="/docs/grapes">Grapes</a>
+                    <a href="/docs/mangoes">Mangoes</a>
+                    <a href="/docs/avocados">Avocados</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">Nutrition</a>
+                <div class="dropdown">
+                    <a href="/docs/fruit-nutrition">General Nutrition</a>
+                    <a href="/docs/vitamins-in-fruits">Vitamins</a>
+                    <a href="/docs/minerals-in-fruits">Minerals</a>
+                    <a href="/docs/antioxidants">Antioxidants</a>
+                    <a href="/docs/fiber-content">Fiber Content</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">Growing</a>
+                <div class="dropdown">
+                    <a href="/docs/fruit-growing">How Fruits Grow</a>
+                    <a href="/docs/climate-requirements">Climate Requirements</a>
+                    <a href="/docs/soil-preparation">Soil Preparation</a>
+                    <a href="/docs/pollination">Pollination</a>
+                    <a href="/docs/harvesting">Harvesting</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">Culinary</a>
+                <div class="dropdown">
+                    <a href="/docs/cooking-with-fruits">Cooking with Fruits</a>
+                    <a href="/docs/preservation">Preservation</a>
+                    <a href="/docs/juicing">Juicing</a>
+                    <a href="/docs/baking">Baking</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#">Health</a>
+                <div class="dropdown">
+                    <a href="/docs/health-benefits">Health Benefits</a>
+                    <a href="/docs/weight-management">Weight Management</a>
+                    <a href="/docs/digestive-health">Digestive Health</a>
+                    <a href="/docs/immune-support">Immune Support</a>
+                </div>
+            </div>
+        </div>
     </nav>
 
     <div class="content">
